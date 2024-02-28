@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### gh-page
+(error deploy from github action)[https://www.kevinhooke.com/2022/11/10/gp-pages-deploy-fails-when-run-from-github-action-author-identity-unknown/]
