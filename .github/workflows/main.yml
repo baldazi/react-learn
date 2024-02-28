@@ -19,11 +19,10 @@ jobs:
       - name: Build
         env:
           MY_EMAIL: 59298812+baldazi@users.noreply.github.com
-          MY_NAME: Abdoul Aziz BALDE
+          MY_NAME: badazi
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
-          
           npm run deploy -- -m "Deploy React app to GitHub Pages"
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v5.0.0
