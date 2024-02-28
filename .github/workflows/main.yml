@@ -16,7 +16,7 @@ jobs:
       - name: Build
         env:
           MY_EMAIL: 59298812+baldazi@users.noreply.github.com
-          MY_NAME: Abdoul Aziz BALDE
+          MY_NAME: baldazi
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
