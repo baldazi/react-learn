@@ -9,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload from here.
           here text added
+          <p>Thanx</p>
         </p>
         <a
           className="App-link"
