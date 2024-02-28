@@ -72,3 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### gh-page
 (error deploy from github action)[https://www.kevinhooke.com/2022/11/10/gp-pages-deploy-fails-when-run-from-github-action-author-identity-unknown/]
+(secret Key)[https://github.com/baldazi/react-learn/settings/secrets/actions]
