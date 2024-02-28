@@ -23,7 +23,7 @@ jobs:
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
-          git remote set-url github.com/baldazi/react-learn.git
+          git remote add origin https://github.com/baldazi/react-learn.git
           npm run deploy -- -m "Deploy React app to GitHub Pages"
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v5.0.0
