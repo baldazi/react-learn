@@ -16,6 +16,8 @@ jobs:
           node-version: '20'
       - name: Install Package
         run: npm install
+      - name: echo a secret  
+        run: echo ${{secrets.MY_NAME}} and ${{secrets.MY_EMAIL}}
       - name: Build
         env:
           MY_EMAIL: ${{secrets.MY_EMAIL}}
