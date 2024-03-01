@@ -17,7 +17,9 @@ jobs:
       - name: Install Package
         run: npm install
       - name: echo a secret  
-        run: echo "${{vars.MY_NAME}} and ${{vars.MY_EMAIL}} and ${{secrets.GH_SECRET}} and ${{github.repository}}"
+        run: |
+          echo "${{vars.MY_NAME}} and ${{vars.MY_EMAIL}} and ${{secrets.GH_SECRET}} and ${{github.repository}}"
+          echo "$ALLMYVARS"
       - name: Build
         env:
           MY_EMAIL: ${{vars.MY_EMAIL}}
