@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
         with:
-          node-version: '12'
+          node-version: '20'
       - name: Install Package
         run: npm install
       - name: Build
@@ -23,6 +23,7 @@ jobs:
         run: |
           git config --global user.email $MY_EMAIL
           git config --global user.name $MY_NAME
+          git remote set-url origin https://$MY_NAME:${{secrets.GH_SECRET}}@github.com/baldazi/react-learn.git
           npm run deploy -- -m "Deploy React app to GitHub Pages"
       - name: Git Auto Commit
         uses: stefanzweifel/git-auto-commit-action@v5.0.0
