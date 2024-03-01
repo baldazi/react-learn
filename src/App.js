@@ -6,11 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload from here.
-          here text added
-          <p>Thank you</p>
-        </p>
+        <p>test my gh-action</p>
         <a
           className="App-link"
           href="https://reactjs.org"
